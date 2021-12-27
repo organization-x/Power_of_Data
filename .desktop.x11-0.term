@@ -1,129 +1,0 @@
-(base) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ c d[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc onda[Kd[Ka activate py38
-(py38) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ s treamlit simple.py
-Usage: streamlit [OPTIONS] COMMAND [ARGS]...
-Try 'streamlit --help' for help.
-
-Error: No such command 'simple.py'.
-(py38) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ s im[K[Ktreamlist[K[Kt run simple.py 
-[0m
-[34m[1m  You can now view your Streamlit app in your browser.[0m
-[0m
-[34m  Local URL: [0m[1mhttp://localhost:8502[0m
-[34m  Network URL: [0m[1mhttp://172.17.0.2:8502[0m
-[0m
-2021-11-22 01:28:52.588 Traceback (most recent call last):
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/miniconda3/envs/py38/lib/python3.8/site-packages/streamlit/script_runner.py", line 354, in _run_script
-    exec(code, module.__dict__)
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/streamlit_demo/streamlit_goodreads_app/simple.py", line 234, in <module>
-    styled, state_stats = make_state_stats(df)
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/streamlit_demo/streamlit_goodreads_app/simple.py", line 99, in make_state_stats
-    state_stats["average early_career_pay"] = state_stats[
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/miniconda3/envs/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 5487, in __getattr__
-    return object.__getattribute__(self, name)
-AttributeError: 'Series' object has no attribute 'style'
-
-^C[34m  Stopping...[0m
-(py38) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ streamlit run simple.py 
-[0m
-[34m[1m  You can now view your Streamlit app in your browser.[0m
-[0m
-[34m  Local URL: [0m[1mhttp://localhost:8502[0m
-[34m  Network URL: [0m[1mhttp://172.17.0.2:8502[0m
-[0m
-2021-11-22 01:31:52.032 Traceback (most recent call last):
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/miniconda3/envs/py38/lib/python3.8/site-packages/streamlit/script_runner.py", line 354, in _run_script
-    exec(code, module.__dict__)
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/streamlit_demo/streamlit_goodreads_app/simple.py", line 235, in <module>
-    styled, state_stats = make_state_stats(df)
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/streamlit_demo/streamlit_goodreads_app/simple.py", line 100, in make_state_stats
-    state_stats["average early_career_pay"] = state_stats[
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/miniconda3/envs/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 5487, in __getattr__
-    return object.__getattribute__(self, name)
-AttributeError: 'Series' object has no attribute 'style'
-
-^C[34m  Stopping...[0m
-(py38) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ streamlit run simple.py 
-[0m
-[34m[1m  You can now view your Streamlit app in your browser.[0m
-[0m
-[34m  Local URL: [0m[1mhttp://localhost:8502[0m
-[34m  Network URL: [0m[1mhttp://172.17.0.2:8502[0m
-[0m
-2021-11-22 01:41:12.147 Traceback (most recent call last):
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/miniconda3/envs/py38/lib/python3.8/site-packages/streamlit/script_runner.py", line 354, in _run_script
-    exec(code, module.__dict__)
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/streamlit_demo/streamlit_goodreads_app/simple.py", line 228, in <module>
-    styled, state_stats = make_state_stats(df)
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/streamlit_demo/streamlit_goodreads_app/simple.py", line 101, in make_state_stats
-    state_stats["average early_career_pay"] = state_stats["average early_career_pay"].style.apply(highlight_above_avg)
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/miniconda3/envs/py38/lib/python3.8/site-packages/pandas/core/generic.py", line 5487, in __getattr__
-    return object.__getattribute__(self, name)
-AttributeError: 'Series' object has no attribute 'style'
-
-^C[34m  Stopping...[0m
-(py38) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ streamlit run simple.py 
-[0m
-[34m[1m  You can now view your Streamlit app in your browser.[0m
-[0m
-[34m  Local URL: [0m[1mhttp://localhost:8502[0m
-[34m  Network URL: [0m[1mhttp://172.17.0.2:8502[0m
-[0m
-2021-11-22 01:43:39.200 Traceback (most recent call last):
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/miniconda3/envs/py38/lib/python3.8/site-packages/streamlit/script_runner.py", line 354, in _run_script
-    exec(code, module.__dict__)
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/streamlit_demo/streamlit_goodreads_app/simple.py", line 240, in <module>
-    st.pyplot(plot_stem_early_career(state_stats))
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/streamlit_demo/streamlit_goodreads_app/simple.py", line 152, in plot_stem_early_career
-    ax.title("Average STEM Percent vs Average Early Career Pay")
-TypeError: 'Text' object is not callable
-
-^C[34m  Stopping...[0m
-(py38) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ streamlit run simple.py 
-[0m
-[34m[1m  You can now view your Streamlit app in your browser.[0m
-[0m
-[34m  Local URL: [0m[1mhttp://localhost:8502[0m
-[34m  Network URL: [0m[1mhttp://172.17.0.2:8502[0m
-[0m
-2021-11-22 01:44:44.509 Traceback (most recent call last):
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/miniconda3/envs/py38/lib/python3.8/site-packages/streamlit/script_runner.py", line 354, in _run_script
-    exec(code, module.__dict__)
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/streamlit_demo/streamlit_goodreads_app/simple.py", line 240, in <module>
-    st.pyplot(plot_stem_early_career(state_stats))
-  File "/projects/65f8ce7b-746e-46c7-a845-426a82b8c18b/streamlit_demo/streamlit_goodreads_app/simple.py", line 154, in plot_stem_early_career
-    ax.ylabel("Average Early Career Pay")
-AttributeError: 'AxesSubplot' object has no attribute 'ylabel'
-
-^C[34m  Stopping...[0m
-(py38) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ streamlit run simple.py 
-[0m
-[34m[1m  You can now view your Streamlit app in your browser.[0m
-[0m
-[34m  Local URL: [0m[1mhttp://localhost:8502[0m
-[34m  Network URL: [0m[1mhttp://172.17.0.2:8502[0m
-[0m
-(base) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ a r[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
-[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc onda activate py38
-(py38) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ s treamlit run simple.py
-[0m
-[34m[1m  You can now view your Streamlit app in your browser.[0m
-[0m
-[34m  Local URL: [0m[1mhttp://localhost:8501[0m
-[34m  Network URL: [0m[1mhttp://172.17.0.2:8501[0m
-[0m
-(base) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ [K(base) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ ^C
-(base) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ c[Kactivate[1Pctivate[1Ptivate[1Pivate[1Pvate[1Pate[1Pte[1Pe[Kconda activate py38
-(py38) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ streamlit run simple
-Usage: streamlit run [OPTIONS] TARGET [ARGS]...
-
-Error: Streamlit requires raw Python (.py) files, but the provided file has no extension.
-For more information, please see https://docs.streamlit.io
-(py38) ]0;~/streamlit_demo/streamlit_goodreads_app[01;34m~/streamlit_demo/streamlit_goodreads_app[00m$ streamlit run simple. py
-[0m
-[34m[1m  You can now view your Streamlit app in your browser.[0m
-[0m
-[34m  Local URL: [0m[1mhttp://localhost:8501[0m
-[34m  Network URL: [0m[1mhttp://172.17.0.2:8501[0m
-[0m
