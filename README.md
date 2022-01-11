@@ -6,6 +6,6 @@
 - Exploratory_Data_Notebook.ipynb = How to run a basic exploratory data analysis step by step!
 - function_testing_notebook.ipynb = How to put together your functions into a master function and test that it works in one pass 
 - streamlit_template.py = Streamlit template to show how to integrate your EDA into a streamlit
-- Requirements.txt = requirements you can install to conda env instead of doing it manually
+- Requirements.txt = requirements you can install with 'pip install -r requirements.txt' instead of doing it manually
 ------
 - simple.py = Old Streamlit app created from the same data
